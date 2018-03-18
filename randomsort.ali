@@ -1,0 +1,30 @@
+V "GNAT Lib v5"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV SPARK_05
+
+U randomsort%b		randomsort.adb		e55345d5 NE OO SU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
+
+D gnat.ads		20140801083227 fd2ad2f1 gnat%s
+D g-io.ads		20110801150502 9f0d3ab2 gnat.io%s
+D randomsort.adb	20180318211930 7a5e7f67 randomsort%b
+D system.ads		20141031112219 1d274481 system%s
+X 1 gnat.ads
+34K9*GNAT 37e9 3|1r6 1r19
+X 2 g-io.ads
+41K14*IO 91e12 3|1w11 1r24
+53U14*Get 3|7s9
+59U14*Put 3|11s9
+X 3 randomsort.adb
+2U11*RandomSort 2b11 13l5 13t15
+3a5 A(integer) 7m13 7r13 10r22 11r13
+4i5 I{integer}
+6i9 I{integer} 7r15
+10i9 I{integer} 11r15
+
