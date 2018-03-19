@@ -1,0 +1,30 @@
+V "GNAT Lib v5"
+P ZX
+
+RN
+RV SPARK_05
+
+U bubble_sort%b		bubble_sort.adb		3321fc63 NE OO SU GE
+
+U bubble_sort%s		bubble_sort.ads		8a5a3af3 BN EE NE OO GE
+
+D bubble_sort.ads	20180319213118 8a5a3af3 bubble_sort%s
+D bubble_sort.adb	20180319213150 b97bc690 bubble_sort%b
+D system.ads		20141031112219 1d274481 system%s
+X 1 bubble_sort.ads
+2+7 Element 3r30 4r30 6r40 2|3r13
+3V17 "="{boolean} 3>21 3>25
+3*21 E1{2+7}
+3*25 E2{2+7}
+4V17 "<"{boolean} 4>21 4>25 2|8s26
+4*21 E1{2+7}
+4*25 E2{2+7}
+5E7 Index 6r21 2|7r23 8r10 10r16 11r8
+6A7 Arr(2+7)<5E7> 7r35 2|1r35
+7u11*Bubble_Sort 7=24 2|1b11 17l5 17t16
+7*24 A{6A7} 2|1b24 7r12 7r35 8r7 8r28 10r13 11m5 11r27 12m5
+X 2 bubble_sort.adb
+2b2 Finished{boolean} 6m3 9m5 15r13
+3*2 Temp{1|2+7} 10m5 12r14
+7e7 J 8r22 8r31 10r28 11r20 11r30 12r8
+

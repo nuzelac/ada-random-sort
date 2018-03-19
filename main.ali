@@ -1,0 +1,58 @@
+V "GNAT Lib v5"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U main%b		main.adb		bf1367e6 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W bubble_sort%s		bubble_sort.adb		bubble_sort.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D bubble_sort.ads	20180319213118 8a5a3af3 bubble_sort%s
+D bubble_sort.adb	20180319213150 b97bc690 bubble_sort%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D main.adb		20180319213200 0d24a8c1 main%b
+D system.ads		20141031112219 1d274481 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 12|2r6 2r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 12|2w10 2r27
+166U14*New_Line 12|17s2
+242U14*Put 12|15s3
+X 8 bubble_sort.ads
+2+7 Element 12|8r5
+5E7 Index 12|9r5
+6A7 Arr(2+7)<5E7> 12|10r5
+7u11*Bubble_Sort 12|3w6 7r3
+X 12 main.adb
+4U11*Main 4b11 18l5 18t9
+5A7 Arr(integer)<integer> 10r16 11r6
+6U12 Sort[8|7] 9|1b11 12|13s2
+11a2 A{5A7} 13m8 13r8 14r11 15r23
+14i6 J{integer} 15r26
+
