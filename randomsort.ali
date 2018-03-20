@@ -1,7 +1,5 @@
 V "GNAT Lib v5"
 M P W=b
-A -mtune=generic
-A -march=x86-64
 P SS ZX
 
 RN
@@ -11,7 +9,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U randomsort%b		randomsort.adb		eb992939 NE OO SU
+U randomsort%b		randomsort.adb		185df7e8 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.discrete_random%s
@@ -28,7 +26,7 @@ D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
 D gnat.ads		20140801083227 fd2ad2f1 gnat%s
 D g-io.ads		20110801150502 9f0d3ab2 gnat.io%s
 D interfac.ads		20141120112812 6033a23f interfaces%s
-D randomsort.adb	20180319203937 5b7b3a99 randomsort%b
+D randomsort.adb	20180320181744 a8bfe448 randomsort%b
 D system.ads		20141031112219 1d274481 system%s
 D s-exctab.ads		20140225151139 54135002 system.exception_table%s
 D s-imguns.ads		20140717070019 9ff43cf7 system.img_uns%s
@@ -48,7 +46,7 @@ X 3 a-nudira.ads
 42E9 Result_Subtype 9|5r65
 44k22*Discrete_Random 73e33 9|2w19 5r49
 48R9 Generator<13|63R9> 9|23r8[5]
-50V13 Random{integer} 9|48s23[5]
+50V13 Random{integer} 9|49s23[5]
 53U14 Reset<13|100p14> 9|26s17[5]
 X 4 a-nudira.adb
 51V16 Random[13|83]{integer} 14|392b13[9|5]
@@ -57,30 +55,28 @@ X 6 gnat.ads
 X 7 g-io.ads
 41K14*IO 91e12 9|1w11 1r24
 53U14*Get 9|28s9
-59U14*Put 9|31s9 55s17 65s9
-68U14*Put 9|38s9 40s9
-77U14*New_Line 9|33s5 43s5 44s5 57s13 61s5 62s5 63s5 67s5
+59U14*Put 9|31s9 66s9
+77U14*New_Line 9|32s9 34s5 67s9 69s5
 X 8 interfac.ads
 68M9*Unsigned_32
 71M9*Unsigned_64
 X 9 randomsort.adb
-4U11*RandomSort 4b11 69l5 69t15
+4U11*RandomSort 4b11 71l5 71t15
 5K13 Discrete_Random[3|44] 6r9
 7A22 IntArray(integer)<integer> 9r41 20r8
-9V26 IsSorted{boolean} 9b26 9>35 18t20 35s10 46s15
+9V26 IsSorted{boolean} 9b26 9>35 18t20 47s15
 9a35 A{7A22} 11r34 11r45 12r36 12r43
 11i29 I{integer} 12r38 12r45
-20a5 A{7A22} 28m13 28r13 30r14 31r13 35r19 46r24 47r30 49r22 50m17 50r25
-. 51m17 54r22 55r21 64r14 65r13
-21b5 B{boolean} 35m5 37r8
-22i5 K{integer} 48m17 50r27 51r19
-23r5 G{3|48R9[5]} 26r23 48r30
-24i5 T{integer} 49m17 51r25
+20a5 A{7A22} 28m13 28r13 30r14 31r13 47r24 48r30 50r22 51m17 51r25 52m17
+. 65r14 66r13
+21b5 B{boolean}
+22i5 K{integer} 49m17 51r27 52r19
+23r5 G{3|48R9[5]} 26r23 49r30
+24i5 T{integer} 50m17 52r25
 27i9 I{integer} 28r15
 30i9 I{integer} 31r15
-47i17 I{integer} 48r37 49r24 50r19
-54i17 I{integer} 55r23
-64i9 I{integer} 65r15
+48i17 I{integer} 49r37 50r24 51r19
+65i9 I{integer} 66r15
 X 13 s-rannum.ads
 75V13*Random{8|68M9} 14|221i21
 76V13*Random{8|71M9} 14|221i21

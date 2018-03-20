@@ -1,5 +1,6 @@
 --  Example of usage:
-with Ada.Text_IO; use Ada.Text_IO;
+with Gnat.Io; use Gnat.Io;
+-- with Ada.Text_IO; use Ada.Text_IO;
 with Bubble_Sort;
 procedure Main is
  type Arr is array (Positive range <>) of Integer;
@@ -8,8 +9,12 @@ procedure Main is
    (Element => Integer,
     Index   => Positive,
     Arr     => Arr);
- A : Arr := (1, 3, 256, 0, 3, 4, -1);
+ A : Arr(1..12);
 begin
+  for I in 1..12 loop
+	    Get(A(I));
+	end loop;
+
  Sort (A);
  for J in A'Range loop
   Put (Integer'Image (A (J)));

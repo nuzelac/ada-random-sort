@@ -17,31 +17,32 @@ procedure RandomSort is
 			return True;
 		end;
 
-    A: IntArray(1..5);
+    A: IntArray(1..12);
     B: Boolean;
     K: Integer;
     G: Generator;
     T: Integer;
 begin
 		Reset(G);
-    for I in 1..5 loop
+    for I in 1..12 loop
         Get(A(I));
     end loop;
     for I in A'Range loop
         Put(A(I));
+        New_line;
     end loop;
     New_line;
 
-    B := IsSorted(A);
+    -- B := IsSorted(A);
 
-    if B then
-    	Put("True");
-    else
-    	Put("False");
-    end if;
+    -- if B then
+    -- 	Put("True");
+    -- else
+    -- 	Put("False");
+    -- end if;
 
-    New_line;
-    New_line;
+    -- New_line;
+    -- New_line;
 
     while not IsSorted(A) loop
 	    for I in reverse A'Range loop
@@ -51,18 +52,19 @@ begin
 	    	A(K) := T;
 	    end loop;
 
-	    for I in A'Range loop
-	        Put(A(I));
-	    end loop;
-	    New_line;
+	    -- for I in A'Range loop
+	    --     Put(A(I));
+	    -- end loop;
+	    -- New_line;
 
     end loop;
 
-    New_line;
-    New_line;
-    New_line;
+    -- New_line;
+    -- New_line;
+    -- New_line;
     for I in A'Range loop
         Put(A(I));
+        New_line;
     end loop;
     New_line;
 
