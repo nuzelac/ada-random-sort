@@ -9,7 +9,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U randomsort%b		randomsort.adb		185df7e8 NE OO SU
+U randomsort%b		randomsort.adb		68da3d23 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W ada.numerics.discrete_random%s
@@ -26,7 +26,7 @@ D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
 D gnat.ads		20140801083227 fd2ad2f1 gnat%s
 D g-io.ads		20110801150502 9f0d3ab2 gnat.io%s
 D interfac.ads		20141120112812 6033a23f interfaces%s
-D randomsort.adb	20180320181744 a8bfe448 randomsort%b
+D randomsort.adb	20180320185026 d8382e83 randomsort%b
 D system.ads		20141031112219 1d274481 system%s
 D s-exctab.ads		20140225151139 54135002 system.exception_table%s
 D s-imguns.ads		20140717070019 9ff43cf7 system.img_uns%s

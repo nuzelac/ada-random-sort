@@ -1,0 +1,3 @@
+$ apt install gnat-5
+$ gnatmake randomsort
+$ ./randomsort < random.in

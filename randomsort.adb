@@ -17,14 +17,14 @@ procedure RandomSort is
 			return True;
 		end;
 
-    A: IntArray(1..12);
+    A: IntArray(1..6);
     B: Boolean;
     K: Integer;
     G: Generator;
     T: Integer;
 begin
 		Reset(G);
-    for I in 1..12 loop
+    for I in 1..6 loop
         Get(A(I));
     end loop;
     for I in A'Range loop
